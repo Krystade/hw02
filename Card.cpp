@@ -5,12 +5,17 @@
  *      Author: jschmid20
  */
 
+#include "Card.h"
 #include "hw02.h"
-class Card{
-public:
 
-private:
+Card::Card(){
+	rank = ranks[0];
+	suit = suits[0];
+}
+Card::Card(string startRank, string startSuit){
+	rank = startRank;
+	suit = startSuit;
+}
+Card::~Card(){}
 
-protected:
 
-};
