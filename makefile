@@ -1,5 +1,5 @@
 CC = g++
-Flags = -std=c++14 -Wall -g
+Flags = -std=c++14 - Wall - g
 OBJS = Card.o Deck.o 
 
 all: hw02
@@ -11,7 +11,7 @@ Card.o:Card.cpp Card.h
 	$(CC)$(FLAGS) -c Card.cpp -o Card.o
 
 Deck.o:Deck.cpp Deck.h
-	$(CC)$(FLAGS) -c Deck.cpp -o Deck.o
+ 	$(CC)$(FLAGS) -c Deck.cpp -o Deck.o
 
 clean:
 	rm*.o hw02 hw02.tar

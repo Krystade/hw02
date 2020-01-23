@@ -22,5 +22,4 @@ typedef enum {
 	One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King, Ace
 } rankType;
 
-
 #endif /* HW02_H_ */

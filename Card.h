@@ -21,7 +21,7 @@ public:
 	void setRank(string newRank){rank = newRank;}
 	string getRank(){return rank;}
 
-	void print(){cout << "Rank: " << getRank() << "\tSuit: " << getSuit() << endl;};
+	void print(){cout << "Rank: " << getRank() << "\t\tSuit: " << getSuit() << endl;};
 private:
 	string suit;
 	string rank;
