@@ -17,7 +17,7 @@ class Deck{
 public:
 	Deck();
 	~Deck();
-
+	//Deck Card getter function
 	Card getCard(int i) const {return cards[i];}
 	void perfectShuffle();
 	void print();
