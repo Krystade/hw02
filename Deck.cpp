@@ -8,7 +8,7 @@
 
 #include "Deck.h"
 #include "hw02.h"
-
+//Default Deck Constructor
 Deck::Deck(){
 	int rankCount = 0;
 	int suitCount = 0;
@@ -19,7 +19,7 @@ Deck::Deck(){
 		suitCount++;
 	}
 }
-
+//Deck memeber function that perfect shuffles the deck
 void Deck::perfectShuffle(){
 	//Split the cards array into two temp arrays
 	Card split1[DECK_SIZE/2];
@@ -35,7 +35,7 @@ void Deck::perfectShuffle(){
 		cards[i+1] = split2[i/2];
 	}
 }
-
+//Deck member function that prints out each card it contains
 void Deck::print(){
 	for(int i = 0; i < DECK_SIZE; i++){
 		cards[i].print();
