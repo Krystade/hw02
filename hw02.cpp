@@ -38,11 +38,9 @@ int main() {
 		count++;
 		deck1->perfectShuffle();
 	}
-	delete deck2;
 	//Display how many shuffles it took until they were equal again
 	cout << "It took " << count << " shuffles to reset the deck" << endl;
 	deck1->print();
-	delete deck1;
 
 	return 0;
 }
